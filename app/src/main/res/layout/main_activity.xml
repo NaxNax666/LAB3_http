@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/guessEditText"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:ems="10"
+        android:hint="Введите догадку"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/checkGuessButton"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:text="Проверить" />
+
+    <TextView
+        android:id="@+id/debugView"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/debugLinkTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageCellView"
+        android:layout_width="match_parent"
+        android:layout_height="359dp"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/resTextView"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Поменять" />
+
+</LinearLayout>
